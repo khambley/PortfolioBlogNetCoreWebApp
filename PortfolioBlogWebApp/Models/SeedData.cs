@@ -79,6 +79,7 @@ namespace PortfolioBlogWebApp.Models
 						ProjectLogoFileName = "motorcycle-rider.png"
 					}
 				);
+				context.SaveChanges();
 			}
 		}
 	}
